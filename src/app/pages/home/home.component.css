@@ -6,6 +6,12 @@
   justify-content: center;
 }
 
-header {
-  margin-top: 10px;
+.articles__main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 200;
 }

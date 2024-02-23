@@ -2,17 +2,22 @@
 
   <div class="container__small-card-content">
     <div class="small-card__photo">
-      <img src="https://sm.ign.com/ign_br/screenshot/default/blob_hbbk.jpg"
+      <img src="{{ photoCard }}"
       alt=""
       height="200px"
       srcset="">
     </div>
 
     <div class="small-card__title">
-      <a href="">
-        <h1>Saio a nova versão do Angular</h1>
+      <a [routerLink]="['hero', id]">
+        <h1>{{ cardTitle }}</h1>
       </a>
     </div>
+
+    <div>
+      <p>{{description}}</p>
+    </div>
+
   </div>
 
   <div class="container__small-card-separator">

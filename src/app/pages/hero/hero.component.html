@@ -1,0 +1,85 @@
+<div class="container__hero">
+
+  <div class="hero__atks">
+    @if (id == "1") {
+      <div class="hero__cover">
+        <img src="{{data[0].photo}}" alt="" srcset="">
+      </div>
+
+      <div class="hero__title">
+        <h1>{{data[0].title}}</h1>
+      </div>
+
+      <app-small-card
+        photoCard="{{data[0].photoAtkOne}}"
+        cardTitle="{{data[0].titleAtkOne}}"
+        description="{{data[0].descriptionAtkOne}}"
+        />
+        <app-small-card
+        photoCard="{{data[0].photoAtkTwo}}"
+        cardTitle="{{data[0].titleAtkTwo}}"
+        description="{{data[0].descriptionAtkTwo}}"
+        />
+        <app-small-card
+        photoCard="{{data[0].photoAtkThree}}"
+        cardTitle="{{data[0].titleAtkThree}}"
+        description="{{data[0].descriptionAtkThree}}"
+        />
+      }
+      @else if (id == "2") {
+
+        <div class="hero__cover">
+          <img src="{{data[1].photo}}" alt="" srcset="">
+        </div>
+
+        <div class="hero__title">
+          <h1>{{data[1].title}}</h1>
+        </div>
+
+        <app-small-card
+        photoCard="{{data[1].photoAtkOne}}"
+        cardTitle="{{data[1].titleAtkOne}}"
+        description="{{data[1].descriptionAtkOne}}"
+        />
+        <app-small-card
+        photoCard="{{data[1].photoAtkTwo}}"
+        cardTitle="{{data[1].titleAtkTwo}}"
+        description="{{data[1].descriptionAtkTwo}}"
+        />
+        <app-small-card
+        photoCard="{{data[1].photoAtkThree}}"
+        cardTitle="{{data[1].titleAtkThree}}"
+        description="{{data[1].descriptionAtkThree}}"
+        />
+
+      }
+      @else {
+        <div class="hero__cover">
+          <img src="{{data[2].photo}}" alt="" srcset="">
+        </div>
+
+        <div class="hero__title">
+          <h1>{{data[2].title}}</h1>
+        </div>
+
+        <app-small-card
+        photoCard="{{data[2].photoAtkOne}}"
+        cardTitle="{{data[2].titleAtkOne}}"
+        description="{{data[2].descriptionAtkOne}}"
+        />
+        <app-small-card
+        photoCard="{{data[2].photoAtkTwo}}"
+        cardTitle="{{data[2].titleAtkTwo}}"
+        description="{{data[2].descriptionAtkTwo}}"
+        />
+        <app-small-card
+        photoCard="{{data[2].photoAtkThree}}"
+        cardTitle="{{data[2].titleAtkThree}}"
+        description="{{data[2].descriptionAtkThree}}"
+        />
+
+    }
+
+  </div>
+
+</div>

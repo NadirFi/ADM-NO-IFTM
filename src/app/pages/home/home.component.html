@@ -1,18 +1,21 @@
-<header>
-
-  <app-menu-bar />
-
-</header>
-
 <app-menu-title />
 
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card />
+    <app-big-card
+    photoCover="https://uploads.spiritfanfiction.com/historias/capitulos/202010/one-piece-a-busca-20770605-171020201507.jpg"
+    cardTitle="Trio Monstro"
+    cardDescription="Em One Piece, os Piratas do Chapéu de Palha contam com um trio de lutadores excepcionais, conhecido como Monster Trio/Trio Monstro, que são essenciais em suas batalhas mais significativas. Este triunvirato é composto por Luffy, Zoro e Sanji, cada um deles habilidoso e poderoso à sua maneira. A maior força é encontrada em Luffy, o capitão, seguido por Zoro, e depois, de forma muito próxima, vem Sanji. O impacto deste trio na série é inegável, e sua relevância se tornará ainda mais aparente com o desenrolar da Saga Final de One Piece."
+    class="item"/>
   </div>
+
   <div class="articles__others">
-    <app-small-card />
-    <app-small-card />
-    <app-small-card />
+    @for (item of data; track $index) {
+      <app-small-card
+      id="{{item.id}}"
+      photoCard="{{item.photo}}"
+      cardTitle="{{item.title}}"
+      />
+    }
   </div>
 </div>

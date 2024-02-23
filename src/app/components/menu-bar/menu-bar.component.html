@@ -1,11 +1,13 @@
 <div class="container__menu-bar">
 
   <ul>
-    <li><a href="https://github.com/NadirFi">Github</a></li>
+    <li><a [routerLink]="['']">Home</a></li>
     <li> <span> • </span> </li>
-    <li><a href="www.linkedin.com/in/nadir-filho-427981247">Linkedin</a></li>
+    <li><a [routerLink]="['hero', 1]">Luffy</a></li>
     <li> <span> • </span> </li>
-    <li><a href="">Youtube</a></li>
+    <li><a [routerLink]="['hero', 2]">Zoro</a></li>
+    <li> <span> • </span> </li>
+    <li><a [routerLink]="['hero', 3]">Sanji</a></li>
   </ul>
 
 </div>
