@@ -1,0 +1,12 @@
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.container__menu-bar > ul > li{
+  margin: auto;
+  list-style: none;
+  gap: 20px;
+}
