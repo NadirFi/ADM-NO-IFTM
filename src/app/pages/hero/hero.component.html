@@ -10,6 +10,10 @@
         <h1>{{data[0].title}}</h1>
       </div>
 
+      <div class="hero__info">
+        <p>{{data[0].info}}</p>
+      </div>
+
       <app-small-card
         photoCard="{{data[0].photoAtkOne}}"
         cardTitle="{{data[0].titleAtkOne}}"
@@ -36,6 +40,10 @@
           <h1>{{data[1].title}}</h1>
         </div>
 
+        <div class="hero__info">
+          <p>{{data[1].info}}</p>
+        </div>
+
         <app-small-card
         photoCard="{{data[1].photoAtkOne}}"
         cardTitle="{{data[1].titleAtkOne}}"
@@ -53,13 +61,17 @@
         />
 
       }
-      @else {
+      @else if (id == "3") {
         <div class="hero__cover">
           <img src="{{data[2].photo}}" alt="" srcset="">
         </div>
 
         <div class="hero__title">
           <h1>{{data[2].title}}</h1>
+        </div>
+
+        <div class="hero__info">
+          <p>{{data[2].info}}</p>
         </div>
 
         <app-small-card
@@ -77,7 +89,35 @@
         cardTitle="{{data[2].titleAtkThree}}"
         description="{{data[2].descriptionAtkThree}}"
         />
+      }
+      @else {
+        <div class="hero__cover">
+          <img src="{{data[3].photo}}" alt="" srcset="">
+        </div>
 
+        <div class="hero__title">
+          <h1>{{data[3].title}}</h1>
+        </div>
+
+        <div class="hero__info">
+          <p>{{data[3].info}}</p>
+        </div>
+
+        <app-small-card
+        photoCard="{{data[3].photoAtkOne}}"
+        cardTitle="{{data[3].titleAtkOne}}"
+        description="{{data[3].descriptionAtkOne}}"
+        />
+        <app-small-card
+        photoCard="{{data[3].photoAtkTwo}}"
+        cardTitle="{{data[3].titleAtkTwo}}"
+        description="{{data[3].descriptionAtkTwo}}"
+        />
+        <app-small-card
+        photoCard="{{data[3].photoAtkThree}}"
+        cardTitle="{{data[3].titleAtkThree}}"
+        description="{{data[3].descriptionAtkThree}}"
+        />
     }
 
   </div>

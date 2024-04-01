@@ -24,9 +24,16 @@
 .hero__atks {
   width: 100%;
 
-  border: 5px solid white;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.hero__info {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
