@@ -9,7 +9,7 @@ import { dataFake } from '../../data/dataFake';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent, RouterLink],
+  imports: [RouterLink, MenuBarComponent, MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent, RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

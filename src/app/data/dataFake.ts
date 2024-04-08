@@ -58,5 +58,21 @@ export const dataFake = [
     "photoAtkThree": "https://www.poderdaescuta.com/wp-content/uploads/2018/08/222002-descubra-a-importancia-da-cultura-organizacional.png",
     "titleAtkThree": "Controle Organizacional",
     "descriptionAtkThree": "O controle é a função administrativa por meio da qual o desempenho da empresa é avaliado. Fazem parte dele atividades como o acompanhamento das ações, o respeito às normas e aos padrões estabelecidos para a realização de análises e a correção dos problemas identificados.",
-  }
+  },
+  {
+    "id": "5",
+    "photo": "https://www.naturalgelo.com.br/wp-content/uploads/2019/10/administracao-producao-operacoes.jpg",
+    "title" : "Opearações",
+    "info": "A área de operações engloba áreas ligadas à manufatura, prestação de serviço, engenharia e logística, que unidas visa melhorar a eficiência do processo produtivo ao máximo. Com a evolução nesta área outros itens passaram a ser importantes na maximização da eficiência do processo produtivo como, reduzir estoques, minimizar desperdícios e criar novos produtos. ",
+    "photoAtkOne": "https://epicdigitais.com.br/wp-content/uploads/2023/12/0112-750x500.jpg",
+    "titleAtkOne": "Produção em Massa",
+    "descriptionAtkOne": "O modelo de produção em massa é um sistema de fabricação que envolve a produção em larga escala de bens padronizados, utilizando linhas de montagem e tecnologias especializadas. Esse modelo foi popularizado por Henry Ford na indústria automobilística no início do século XX. Ele se baseia na divisão do trabalho, onde cada trabalhador é responsável por uma tarefa específica e repetitiva, aumentando a eficiência e reduzindo custos. Isso permite a produção rápida, com baixo custo unitário e alto volume de produtos idênticos.",
+    "photoAtkTwo": "https://media.licdn.com/dms/image/D4D12AQEL7ZNixZn_4g/article-cover_image-shrink_600_2000/0/1694601820904?e=2147483647&v=beta&t=tNBA5ZPZI9f0APgVWGO-nhGMfOx3WGCAlI0D0yTTt3Y",
+    "titleAtkTwo": "Lean Manufacturing",
+    "descriptionAtkTwo": "O modelo de produção enxuta, também conhecido como Lean Manufacturing, é uma abordagem de fabricação focada na eliminação de desperdícios e na otimização de processos para aumentar a eficiência e a qualidade. Ele se concentra em maximizar o valor para o cliente, reduzindo o tempo de ciclo, minimizando estoques, simplificando fluxos de trabalho e promovendo a melhoria contínua. Ao contrário da produção em massa, o modelo enxuto valoriza a flexibilidade, a resposta rápida às mudanças do mercado e o envolvimento dos funcionários em todas as etapas do processo produtivo.",
+    "photoAtkThree": "https://ascenty.com/wp-content/uploads/2023/11/1473067_Ascenty_Artigo-18_Tecnologia-e-Sustentabilidade-as-lic%E2%95%A0oo%E2%95%A0aes-da-Ascenty-para-um-futuro-verde-e-conectado-_Jun-23_Capa_blog-1920x1000-c-default.png",
+    "titleAtkThree": "Sustentabilidade",
+    "descriptionAtkThree": "Sustentabilidade ambiental é a capacidade de utilizar os recursos naturais de forma equilibrada, garantindo que as necessidades das gerações atuais sejam atendidas sem comprometer a capacidade das gerações futuras de atenderem às suas próprias necessidades. Isso implica em preservar a biodiversidade, reduzir o consumo de recursos não renováveis, minimizar a poluição e adotar práticas que promovam a saúde e a resiliência dos ecossistemas. Em resumo, trata-se de buscar um equilíbrio entre o desenvolvimento econômico, social e ambiental para garantir um futuro sustentável para o planeta e suas espécies.",
+  },
 ]
+

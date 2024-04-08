@@ -1,4 +1,5 @@
 <div class="container__hero">
+  <app-menu></app-menu>
 
   <div class="hero__atks">
     @if (id == "1") {
@@ -88,6 +89,35 @@
         photoCard="{{data[2].photoAtkThree}}"
         cardTitle="{{data[2].titleAtkThree}}"
         description="{{data[2].descriptionAtkThree}}"
+        />
+      }
+      @else if (id == "5") {
+        <div class="hero__cover">
+          <img src="{{data[4].photo}}" alt="" srcset="">
+        </div>
+
+        <div class="hero__title">
+          <h1>{{data[4].title}}</h1>
+        </div>
+
+        <div class="hero__info">
+          <p>{{data[4].info}}</p>
+        </div>
+
+        <app-small-card
+        photoCard="{{data[4].photoAtkOne}}"
+        cardTitle="{{data[4].titleAtkOne}}"
+        description="{{data[4].descriptionAtkOne}}"
+        />
+        <app-small-card
+        photoCard="{{data[4].photoAtkTwo}}"
+        cardTitle="{{data[4].titleAtkTwo}}"
+        description="{{data[4].descriptionAtkTwo}}"
+        />
+        <app-small-card
+        photoCard="{{data[4].photoAtkThree}}"
+        cardTitle="{{data[4].titleAtkThree}}"
+        description="{{data[4].descriptionAtkThree}}"
         />
       }
       @else {
