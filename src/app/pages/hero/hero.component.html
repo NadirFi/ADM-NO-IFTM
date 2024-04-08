@@ -119,6 +119,44 @@
         cardTitle="{{data[4].titleAtkThree}}"
         description="{{data[4].descriptionAtkThree}}"
         />
+        <app-small-card
+        photoCard="{{data[4].photoAtkFour}}"
+        cardTitle="{{data[4].titleAtkFour}}"
+        description="{{data[4].descriptionAtkFour}}"
+        />
+      } @else if (id == "6") {
+        <div class="hero__cover">
+          <img src="{{data[9].photo}}" alt="" srcset="">
+        </div>
+
+        <div class="hero__title">
+          <h1>{{data[9].title}}</h1>
+        </div>
+
+        <div class="hero__info">
+          <p>{{data[9].info}}</p>
+        </div>
+
+        <app-small-card
+        photoCard="{{data[5].photo}}"
+        cardTitle="{{data[5].title}}"
+        description="{{data[5].info}}"
+        />
+        <app-small-card
+        photoCard="{{data[6].photo}}"
+        cardTitle="{{data[6].title}}"
+        description="{{data[6].info}}"
+        />
+        <app-small-card
+        photoCard="{{data[7].photo}}"
+        cardTitle="{{data[7].title}}"
+        description="{{data[7].info}}"
+        />
+        <app-small-card
+        photoCard="{{data[8].photo}}"
+        cardTitle="{{data[8].title}}"
+        description="{{data[8].info}}"
+        />
       }
       @else {
         <div class="hero__cover">
