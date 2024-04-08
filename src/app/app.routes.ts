@@ -11,4 +11,8 @@ export const routes: Routes = [
     path: 'hero/:id',
     component: HeroComponent,
   },
+  {
+    path: 'hero/5/hero/:id',
+    component: HeroComponent,
+  },
 ];
