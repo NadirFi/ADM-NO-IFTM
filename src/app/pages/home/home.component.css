@@ -1,5 +1,5 @@
 .container__articles {
-  margin-top: 30px;
+  margin: 50px;
 
   display: flex;
   flex-direction: row;
@@ -14,4 +14,11 @@
 .item {
   flex-grow: 1;
   flex-basis: 200;
+}
+
+.container__all {
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  flex-direction: column;
 }

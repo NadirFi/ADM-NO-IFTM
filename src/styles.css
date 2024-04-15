@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111111;
-  color: white;
-  font-family: 'segoe UI';
+  background-color: #efefef;
+  color: rgb(0, 0, 0);
+  font-family: "Alegreya";
 }
 
 a {
   text-decoration: none;
 }
+
