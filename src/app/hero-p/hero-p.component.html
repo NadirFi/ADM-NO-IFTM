@@ -299,21 +299,15 @@
 
         <app-small-card
         id="16"
-        photoCard="{{data[0].photoAtkOne}}"
-        cardTitle="{{data[0].titleAtkOne}}"
-        description="{{data[0].descriptionAtkOne}}"
+        photoCard="{{data[11].photo}}"
+        cardTitle="{{data[11].title}}"
+        description="{{data[11].info}}"
         />
         <app-small-card
         id="17"
-        photoCard="{{data[0].photoAtkTwo}}"
-        cardTitle="{{data[0].titleAtkTwo}}"
-        description="{{data[0].descriptionAtkTwo}}"
-        />
-        <app-small-card
-        id="18"
-        photoCard="{{data[0].photoAtkTwo}}"
-        cardTitle="{{data[0].titleAtkTwo}}"
-        description="{{data[0].descriptionAtkTwo}}"
+        photoCard="{{data[12].photo}}"
+        cardTitle="{{data[12].title}}"
+        description="{{data[12].info}}"
         />
       }
       @else if (id == "16") {
@@ -339,6 +333,11 @@
         cardTitle="{{data[11].titleAtkTwo}}"
         description="{{data[11].descriptionAtkTwo}}"
         />
+        <app-small-card
+        photoCard="{{data[11].photoAtkThree}}"
+        cardTitle="{{data[11].titleAtkThree}}"
+        description="{{data[11].descriptionAtkThree}}"
+        />
       }
       @else if (id == "17") {
         <div class="hero__cover">
@@ -363,29 +362,10 @@
         cardTitle="{{data[12].titleAtkTwo}}"
         description="{{data[12].descriptionAtkTwo}}"
         />
-      }
-      @else if (id == "18") {
-        <div class="hero__cover">
-          <img src="{{data[13].photo}}" alt="" srcset="">
-        </div>
-
-        <div class="hero__title">
-          <h1>{{data[13].title}}</h1>
-        </div>
-
-        <div class="hero__info">
-          <p>{{data[13].info}}</p>
-        </div>
-
         <app-small-card
-        photoCard="{{data[13].photoAtkOne}}"
-        cardTitle="{{data[13].titleAtkOne}}"
-        description="{{data[13].descriptionAtkOne}}"
-        />
-        <app-small-card
-        photoCard="{{data[13].photoAtkTwo}}"
-        cardTitle="{{data[13].titleAtkTwo}}"
-        description="{{data[13].descriptionAtkTwo}}"
+        photoCard="{{data[12].photoAtkThree}}"
+        cardTitle="{{data[12].titleAtkThree}}"
+        description="{{data[12].descriptionAtkThree}}"
         />
       }
 
