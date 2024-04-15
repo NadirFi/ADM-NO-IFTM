@@ -64,9 +64,9 @@ export const dataFake = [
     "photo": "https://gestaodesegurancaprivada.com.br/wp-content/uploads/gestao-1280x720.jpg",
     "title": "Administração Contemporânea",
     "info": "A Administração Contemporânea estuda uma série de teorias dentre as quais se averigua quais os modelos de estruturas organizacionais são os mais adequados para o sucesso da empresa, os estudos teóricos procuram explicar como as empresas funcionam em diferentes condições de acordo com ambiente interno e externo. Para isso, existem as funções administrativas do empreendedor, são quatro: planejar, organizar, dirigir e controlar. Popularizado como P.O.D.C.Em resumo, Administrar é a capacidade que o individuo adquire de, alinhar seus pensamentos e ideias com os recursos disponíveis, a fim de alcançar seu objetivo, sendo por meio de experiências obtidas (falhas ou sucessos) e/ou técnicas já consolidadas.",
-    "photoAtkOne": "https://fgvjr.com/wp-content/uploads/2022/05/planejamentoestrategico-01-png.png",
-    "titleAtkOne": "PLANEJAMENTO ESTRATÉGICO",
-    "descriptionAtkOne": "Como o próprio nome diz, nesse, buscamos definir as estratégias que, a longo prazo, nos levarão aos objetivos, consequentemente, essa é a etapa mais ampla e complexa do planejamento. Aqui precisamos realizar o diagnóstico da empresa, usando a Análise SWOT, como você provavelmente já conhece, nos ajuda a elencar forças, fraquezas, oportunidades e ameaças. Onde é analisado o ambiente de negócios e a análise da concorrência.",
+    "photoAtkOne": "https://elements-cover-images-0.imgix.net/55f2d863-c560-4d7e-b837-b09f72d4f1f3?auto=compress%2Cformat&w=900&fit=max&s=f81f2ad04bc07e2101d8846bcdf7d3d2",
+    "titleAtkOne": "Planejar",
+    "descriptionAtkOne": "O conceito de planejamento consiste no ato de criar e conceber antecipadamente uma ação, desenvolvendo estratégias programadas para atingir determinado objetivo. Funciona como uma forma de identificar um alvo específico, com a intenção de organizar e aplicar as melhores maneiras para atingi-lo.",
     "photoAtkTwo": "https://organizenapratica.com.br/wp-content/uploads/2021/11/como-organizar-a-vida.png",
     "titleAtkTwo": "Organizar",
     "descriptionAtkTwo": "Organização é a forma como se dispõe um sistema para atingir os resultados pretendidos. Normalmente é formado por uma, duas ou mais pessoas que executam funções de modo controlado e coordenado com a missão de atingir um objetivo em comum com eficácia.",
@@ -79,7 +79,7 @@ export const dataFake = [
 
   },
   {
-    "id": "9",
+    "id": "21",
     "photo": "https://www.naturalgelo.com.br/wp-content/uploads/2019/10/administracao-producao-operacoes.jpg",
     "title" : "Opearações",
     "info": "A área de operações engloba áreas ligadas à manufatura, prestação de serviço, engenharia e logística, que unidas visa melhorar a eficiência do processo produtivo ao máximo. Com a evolução nesta área outros itens passaram a ser importantes na maximização da eficiência do processo produtivo como, reduzir estoques, minimizar desperdícios e criar novos produtos. ",
@@ -94,7 +94,7 @@ export const dataFake = [
     "descriptionAtkThree": "Sustentabilidade ambiental é a capacidade de utilizar os recursos naturais de forma equilibrada, garantindo que as necessidades das gerações atuais sejam atendidas sem comprometer a capacidade das gerações futuras de atenderem às suas próprias necessidades. Isso implica em preservar a biodiversidade, reduzir o consumo de recursos não renováveis, minimizar a poluição e adotar práticas que promovam a saúde e a resiliência dos ecossistemas. Em resumo, trata-se de buscar um equilíbrio entre o desenvolvimento econômico, social e ambiental para garantir um futuro sustentável para o planeta e suas espécies.",
   },
   {
-    "id": "7",
+    "id": "22",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6onVqrxis3mNyYw24M51BKmbtULda-LWZir01XyEOQ&s",
     "title": "Marketing",
     "info": "Marketing nas empresas é a função que envolve a identificação e satisfação das necessidades e desejos dos clientes por meio do desenvolvimento e oferta de produtos ou serviços que proporcionem valor. Em outras palavras, o marketing é o processo de criar, comunicar, entregar e trocar ofertas que tenham valor para os clientes, clientes potenciais, parceiros e a sociedade em geral. As atividades de marketing incluem pesquisa de mercado para entender as necessidades dos clientes, desenvolvimento de produtos ou serviços que atendam a essas necessidades, estabelecimento de estratégias de precificação, promoção e distribuição para alcançar e persuadir os clientes-alvo, além de construção e manutenção de relacionamentos com os clientes para garantir a fidelização e a satisfação a longo prazo. Em resumo, o marketing nas empresas visa criar valor para os clientes e garantir que esse valor seja comunicado, entregue e mantido de forma eficaz, contribuindo assim para o sucesso da organização no mercado.",
@@ -108,7 +108,7 @@ export const dataFake = [
     "titleAtkThree": "",
   },
   {
-    "id": "8",
+    "id": "23",
     "photo": "https://www.sertms.com/wp-content/uploads/2020/04/original-923d378ec27d40b98dd57696c2337a7b.jpg",
     "title": "Gestão de Pessoas",
     "info": "A gestão de pessoas nas empresas se refere ao conjunto de práticas e políticas adotadas pelos gestores para gerir o capital humano de uma organização. Envolve todas as atividades relacionadas ao recrutamento, seleção, desenvolvimento, motivação, avaliação e retenção dos colaboradores. A gestão de pessoas reconhece que os funcionários são um dos recursos mais importantes de uma empresa e que seu desempenho e satisfação têm um impacto significativo no sucesso organizacional. Portanto, as empresas buscam desenvolver estratégias eficazes para atrair, desenvolver e reter talentos.",
@@ -123,7 +123,7 @@ export const dataFake = [
     "descriptionAtkThree": "Envolve a avaliação sistemática do desempenho dos colaboradores em relação aos objetivos organizacionais e individuais. Isso pode incluir a definição de metas, feedback regular, avaliações formais de desempenho e identificação de áreas de melhoria.",
   },
   {
-    "id": "9",
+    "id": "24",
     "photo": "https://blog.mercadaodosoculos.com.br/wp-content/uploads/2019/02/275247-tarefa-exclusiva-para-favoritos-x-dicas-essenciais-de-gestao-financeira-para-franquias-780x450.jpg",
     "title" : "Finanças ",
     "info": "A função financeira de uma empresa refere-se à gestão e controle de todas as atividades relacionadas ao dinheiro e aos recursos financeiros da empresa. Ela desempenha um papel crucial na tomada de decisões estratégicas e operacionais que afetam a saúde financeira da organização.",

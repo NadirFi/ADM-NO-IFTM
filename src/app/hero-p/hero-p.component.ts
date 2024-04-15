@@ -1,17 +1,16 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
-import { SmallCardComponent } from '../../components/small-card/small-card.component';
-import { dataFake } from '../../data/dataFake';
+import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit, Input } from '@angular/core';
+import { dataFake } from '../data/dataFake';
+import { SmallCardComponent } from '../components/small-card/small-card.component';
 
 @Component({
-  selector: 'app-hero',
+  selector: 'app-hero-p',
   standalone: true,
-  imports: [SmallCardComponent, RouterLink,],
-  templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css'
+  imports: [SmallCardComponent],
+  templateUrl: './hero-p.component.html',
+  styleUrl: './hero-p.component.css'
 })
-export class HeroComponent implements OnInit {
-
+export class HeroPComponent implements OnInit {
   photoCover: string = "";
 
   heroTitle: string = "";

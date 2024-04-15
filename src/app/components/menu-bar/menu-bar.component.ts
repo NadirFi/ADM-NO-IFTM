@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, ActivatedRoute } from '@angular/router';
-import { dataFake } from '../../data/dataFake';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-menu-bar',
@@ -12,3 +11,4 @@ import { dataFake } from '../../data/dataFake';
 export class MenuBarComponent {
 
 }
+
