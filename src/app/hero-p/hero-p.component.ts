@@ -37,7 +37,6 @@ export class HeroPComponent implements OnInit {
   setValuesToComponent(id: string | null) {
     const result = dataFake.filter( article => article.id === id )[0];
 
-      console.log(result);
 
       this.photoCover = result.photo;
       this.heroTitle = result.title;

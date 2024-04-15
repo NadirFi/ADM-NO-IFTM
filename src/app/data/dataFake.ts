@@ -151,6 +151,13 @@ export const dataFake = [
     "titleAtkThree": "",
   },
 
+  {
+    "id": "15",
+    "photo": "https://fia.com.br/wp-content/uploads/2023/09/Imagem7.png",
+    "title": "Sustentabilidade",
+    "info": "O que é sustentabilidade? Sustentabilidade é a capacidade de uso consciente dos recursos naturais sem comprometer o bem-estar das gerações futuras. Seu objetivo principal é encontrar o equilíbrio entre o desenvolvimento econômico e a preservação ambiental.",
+
+  },
 
   {
     "id": "100",
